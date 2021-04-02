@@ -1,0 +1,46 @@
+@font-face { font-family: bauhaus; src: url('Bauhaus_.ttf'); } 
+
+body {
+    background-color: #000000;
+}
+
+.title {
+    color: #F9EAD7;
+    font-family: bauhaus;
+    text-align: right;
+    font-size: 70px;
+    position: absolute;
+    right: 400px;
+    width: 800px;
+    z-index: 200;
+    
+
+}
+
+.circle {
+height: 700px;
+width: 700px;
+border-radius: 50%;
+background-color: #1566FF;
+position: absolute;
+right: 5vw;
+z-index: 100;
+
+}
+
+#headerContent {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.chartContainer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
